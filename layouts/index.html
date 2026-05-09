@@ -17,10 +17,17 @@
         .font-serif { font-family: 'Playfair Display', serif; }
         
         .parallax-bg {
-            background-attachment: fixed;
+            background-attachment: scroll;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        @media (min-width: 1024px) {
+            .parallax-bg {
+                background-attachment: fixed;
+            }
         }
         
         .glass-card {
@@ -35,7 +42,7 @@
 
     <!-- HERO SECTION: Background image stays fixed while content scrolls -->
     <section class="h-screen w-full flex items-center justify-center parallax-bg relative" 
-             style="background-image: url('/images/hero-house.jpeg');">
+             style="background-image: url('https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=2000');">
         <!-- Dark Overlay for text readability -->
         <div class="absolute inset-0 bg-black/40"></div>
         
