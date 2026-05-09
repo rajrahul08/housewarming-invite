@@ -1,0 +1,27 @@
+# Main Header Info
+title: "The C's Legacy | Est. 2026"
+family: "Channamma & Family"
+date: "May 29th, 2026"
+
+# The Ceremony Cards
+# Icons available: home, key, utensils, sun, heart, map-pin
+ceremonies:
+  - title: "Ganapathi Homam and Vasthu Puja"
+    time: "4:30 AM"
+    icon: "home"
+    desc: "Seeking blessings for our new beginning with a traditional Cow Puja."
+    
+  - title: "Gau Puja and Gruhapravesha"
+    time: "7:00 AM"
+    icon: "key"
+    desc: "The auspicious moment we step into our dream residence."
+    
+  - title: "Grand Lunch"
+    time: "12:30 PM"
+    icon: "utensils"
+    desc: "We invite you to join us for a traditional festive feast."
+
+# Venue Details
+venue:
+  name: "Channaiah Nilaya, #4/52, Paper Town, Bhadravathi, Karnataka"
+  map_link: "https://maps.app.goo.gl/Y25T1TPhA6ZeeDCCA" # Replace with your actual Google Maps Plus Code or link
